@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+    margin: 8;
+}
+
+h1 {
+    cursor: pointer;
+    margin: 8;
+}
+
+.logo {
+    height: 150px;
+    width: 110px;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 1.2rem;
+}
+
+th td{
+  border: solid 1px #333;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background: #ccc;
+}
