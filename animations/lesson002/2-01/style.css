@@ -1,30 +1,12 @@
 @charset "UTF-8";
 
 body {
-    animation: bgcolor 20s rase infinite;
-    background: linear-gradient(45deg,#3bade3,#9844b7,#44ea76);
-    background-size: 200% 200%;
-    height: 100vh;
-    width: 100%;
+  animation: bgcolor 10s ease infinite;
+  background-color: #cc0000;
 }
 
 @keyframes bgcolor {
-    0% {background-positon: 0 50% }
-    50% {background-position:  100% 50% }
-    100% {background-positon: 0 50%; }
-}
-
-.fluid {
-    animation: fluid 30s ease 0s infinite;
-    background-color: #cc0000;
-    height: 40vh;
-    width: 40vh;
-}
-
-@keyframes fluid {
-    0%, 100% { border-radius: 66% 34% 57% 43% / 66% 25% 75% 34%  }
-    20% {border-radius: 78% 22% 78% 22% / 74% 69% 31% 26%  }
-    40% {border-radius: 29% 71% 61% 39% / 50% 75% 25% 50%  }
-    60% {border-radius: 42% 58% 71% 29% / 61% 60% 40% 39%  }
-    80% {border-radius: 29% 71% 39% 61% / 36% 75% 25% 64%  }
+  0%  { background-color: #cc0000; }
+  25% { background-color: #00cc00; }
+  75% { background-color: #0000cc; }
 }

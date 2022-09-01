@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.fluid {
+  animation: fluid 20s ease 0s infinite;
+  background-color: #cc0000;
+  height: 40vh;
+  width: 40vh;
+}
+
+@keyframes fluid {
+  0%, 100% { border-radius: 30% 70% 43% 57% / 59% 17% 83% 41%; }
+  20% { border-radius: 60% 40% 68% 32% / 36% 46% 54% 64%; }
+  40% { border-radius: 81% 19% 45% 55% / 22% 68% 32% 78%; }
+  60% { border-radius: 81% 19% 0% 100% / 100% 0% 100% 0%; }
+  80% { border-radius: 19% 81% 30% 70% / 49% 61% 39% 51%; }
+}
